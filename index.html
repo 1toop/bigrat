@@ -1,72 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>big rat</title>
-  <meta name="description" content="A giant rat. Just a big rat.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/jpeg" href="https://velocityexecutor.netlify.app/rat.jpg">
-  <link rel="apple-touch-icon" href="https://velocityexecutor.netlify.app/rat.jpg">
-
-  <meta property="og:title" content="big rat" />
-  <meta property="og:site_name" content="big rat" />
-  <meta property="og:description" content="just a big rat" />
-  <meta property="og:image" content="https://velocityexecutor.netlify.app/rat.jpg?v=2" />
-  <meta property="og:image:alt" content="big rat" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="992" />
-  <meta property="og:image:height" content="688" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://velocityexecutor.netlify.app/" />
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="big rat">
-  <meta name="twitter:description" content="just a big rat">
-  <meta name="twitter:image" content="https://velocityexecutor.netlify.app/rat.jpg?v=2">
-  <meta name="twitter:image:alt" content="big rat">
-
-  <link rel="canonical" href="https://velocityexecutor.netlify.app/">
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="toop" />
-  <meta name="theme-color" content="#161618" />
-
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #161618;
-      height: 100%;
-      width: 100%;
-    }
-    body, #rat-cr {
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    img {
-      max-width: 98vw;
-      max-height: 98vh;
-      box-shadow: 0 4px 32px rgba(0,0,0,0.25);
-      border-radius: 12px;
-      background: #222;
-    }
-    h1 {
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>big rat lol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            background: #1a1a1a;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        
+        .subtitle {
+            color: #ccc;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        
+        /* idk */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5em; }
+            img { max-width: 95%; }
+        }
+    </style>
 </head>
+
 <body>
-  <h1>big rat</h1>
-  <div id="rat-cr">
-    <img src="rat.jpg" alt="big rat" loading="eager" draggable="false">
-  </div>
-  <noscript>
-    <div style="color: white; font-family: monospace; text-align: center; margin-top: 2em;">
-      enable javascript😡<br>
+    <div class="container">
+        <h1>🐀 big rat 🐀</h1>
+        <img src="rat.jpg" alt="very big rat">
+        <div class="subtitle">just a really big rat i found</div>
     </div>
-  </noscript>
+    
+    <script>
+        // made this because why not
+        console.log("rat loaded successfully");
+        
+        // press r
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'r') {
+                document.body.style.transform = 'rotate(180deg)';
+                setTimeout(() => {
+                    document.body.style.transform = 'rotate(0deg)';
+                }, 1000);
+            }
+        });
+    </script>
 </body>
 </html>
